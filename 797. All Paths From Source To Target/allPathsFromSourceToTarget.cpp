@@ -5,6 +5,7 @@ using namespace std;
 class Solution {
 public:
     vector<vector<int>> result;
+    void dfs( int current, vector<int> &path, vector<vector<int>>&graph);
     
     vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
         vector<int> path;
